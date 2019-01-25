@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ashwini.harekrishna.transaction">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="216dp"
+        android:layout_height="39dp"
+        android:autoSizeTextType="uniform"
+        android:text="SELECT AN PHOTOGRAPHER"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/activity_vertical_margin"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.355"
+        app:layout_constraintVertical_bias="0.017"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="333dp"
+        android:layout_height="81dp"
+        android:text="SELECT MAODE OF TRANSACTION"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/holo_red_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintVertical_bias="0.461" />
+
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="place your order"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="429dp"
+        android:onClick="onclick"
+        android:id="@+id/btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.448" />
+
+    <RadioGroup
+        android:id="@+id/radioselect"
+        android:layout_width="276dp"
+        android:layout_height="108dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.331"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.14">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="141dp"
+            android:layout_height="29dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:onClick="onRadioButtonClicked"
+
+            android:text="Darshan "
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.37"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.171" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="99dp"
+            android:layout_height="42dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:onClick="onRadioButtonClicked"
+
+            android:text="john"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.352"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.274" />
+    </RadioGroup>
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="305dp"
+        android:layout_height="146dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.719">
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CASH   or cheque"
+            android:onClick="onRadioButtonClicked"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#050505"
+            tools:layout_editor_absoluteX="53dp"
+            tools:layout_editor_absoluteY="278dp" />
+
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="135dp"
+            android:layout_height="44dp"
+            android:text="Net banking"
+            android:onClick="onRadioButtonClicked"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            tools:layout_editor_absoluteX="73dp"
+            tools:layout_editor_absoluteY="312dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="259dp"
+            android:onClick="onRadioButtonClicked"
+            android:layout_height="64dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="pay using your Debit or Credit card"
+            tools:layout_editor_absoluteX="73dp"
+            tools:layout_editor_absoluteY="262dp" />
+
+    </RadioGroup>
+
+
+</android.support.constraint.ConstraintLayout>

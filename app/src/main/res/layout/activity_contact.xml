@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ashwini.harekrishna.contact">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="393dp"
+            android:layout_height="400dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/wel2"
+            app:layout_constraintHorizontal_bias="0.48"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/constraintLayout"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp">
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="25dp"
+                android:text="CONTACT US TODAY"
+                android:textColor="@android:color/black"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                app:layout_constraintHorizontal_bias="0.444"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:id="@+id/textView13"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="Have a chat to one of the friendly members of our team to discuss all your photoshoot ideas. If you don’t have any? Don’t worry – we can help with that too."
+                android:textColor="@android:color/background_light"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_marginRight="8dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginLeft="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_editor_absoluteY="110dp"
+                app:layout_constraintHorizontal_bias="0.481"
+                android:layout_marginTop="25dp"
+                app:layout_constraintTop_toBottomOf="@+id/textView13"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="email : reachus@gmail.com"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/background_light"
+                android:layout_marginRight="8dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginLeft="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintHorizontal_bias="0.481"
+                android:layout_marginTop="25dp"
+                app:layout_constraintTop_toBottomOf="@+id/textView2"
+                android:id="@+id/textView3"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Phone : 9988007766"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/background_light"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/textView3"
+                android:layout_marginRight="8dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginLeft="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp" />
+        </android.support.constraint.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="FIRST NAME"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintLeft_toRightOf="@+id/textView"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintHorizontal_bias="0.529"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="54dp"
+            android:text="LAST NAME"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            android:layout_marginStart="16dp" />
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginTop="35dp"
+            app:layout_constraintTop_toBottomOf="@+id/editText"
+            app:layout_constraintLeft_toRightOf="@+id/textView4"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintHorizontal_bias="0.529"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="54dp"
+            android:text="PHONE"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            android:layout_marginStart="16dp" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginTop="35dp"
+            app:layout_constraintTop_toBottomOf="@+id/editText2"
+            app:layout_constraintLeft_toRightOf="@+id/textView4"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintHorizontal_bias="0.529"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="54dp"
+            android:text="EMAIL"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5"
+            android:layout_marginStart="16dp" />
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginTop="35dp"
+            app:layout_constraintTop_toBottomOf="@+id/editText3"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/textView6"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="54dp"
+            android:text="BIRTHDAY"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6"
+            android:layout_marginStart="16dp" />
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="103dp"
+            android:layout_height="32dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginTop="-25dp"
+            app:layout_constraintTop_toBottomOf="@+id/editText4"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="54dp"
+            android:text="MESSAGE"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7"
+            android:layout_marginStart="16dp" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="177dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:layout_marginTop="-46dp"
+            app:layout_constraintTop_toBottomOf="@+id/editText5"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintHorizontal_bias="0.759" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="35dp"
+            android:text="SEND ENQUIRY"
+            android:textColor="@android:color/black"
+            android:textSize="30dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText6"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" />
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="390dp"
+            android:layout_height="250dp"
+            app:layout_constraintTop_toBottomOf="@+id/button"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/team2" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="THE PHOTOSTUDIO BANGALORE"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/image1"
+            />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="99888667700"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView9"
+            />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="We are located in the heart of Glebe just 5 minutes from the Sydney CBD. The easiest parking is in Broadway Shopping Centre directly behind the studio."
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView10"
+            />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="© 2017 The Photo Studio |App by ClickersOnline"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView11"/>
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:text="Share your information"
+            android:textSize="30dp"
+            android:layout_marginTop="32dp"
+            android:gravity="center"
+            android:textStyle="italic"
+            app:layout_editor_absoluteX="58dp"
+            android:layout_marginLeft="-3dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="65dp"
+            android:layout_height="39dp"
+            android:text="date"
+            tools:layout_editor_absoluteY="773dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintHorizontal_bias="0.881" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

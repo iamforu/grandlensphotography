@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ashwini.harekrishna.fraghome"
+    android:background="#ff000000">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light">
+
+        <RelativeLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="379dp"
+            android:layout_height="205dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/imge12"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_editor_absoluteY="1dp">
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="362dp"
+                android:layout_height="76dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="40dp"
+                android:text="PHOTOSHOOTS CAN CHANGE YOUR LIVES"
+                android:textColor="@android:color/background_dark"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="436dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/background_light"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+            app:layout_constraintVertical_bias="0.0">
+
+            <TextView
+                android:layout_width="442dp"
+                android:layout_height="42dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/edittextstyle"
+                android:gravity="center"
+                android:text="CATALOGUE COLLECTIONS"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@android:color/background_dark"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="170dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="39dp"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="71dp"
+                android:background="@drawable/bride"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="39dp"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="BRIDE CATALOGUE"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/image1"
+                app:layout_editor_absoluteX="39dp"
+                app:layout_editor_absoluteY="234dp" />
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="39dp"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Starting from Rs. 100000"
+                android:textColor="#212121"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text1"
+                app:layout_editor_absoluteX="39dp" />
+
+            <Button
+                android:id="@+id/but1"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="39dp"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttonstyle"
+                android:gravity="center"
+                android:text="BOOK"
+                android:textColor="#e91e63"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text3"
+                app:layout_editor_absoluteX="39dp"
+                app:layout_editor_absoluteY="234dp" />
+
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="170dp"
+                android:layout_height="150dp"
+                android:layout_marginEnd="39dp"
+                android:layout_marginRight="39dp"
+                android:layout_marginTop="71dp"
+                android:background="@drawable/groom"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="GROOM CATALOGUE"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                app:layout_constraintHorizontal_bias="0.204"
+                app:layout_constraintLeft_toRightOf="@+id/text1"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/image2" />
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Starting from Rs.75000"
+                android:textColor="#212121"
+                android:textStyle="bold"
+                app:layout_constraintHorizontal_bias="0.204"
+                app:layout_constraintLeft_toRightOf="@+id/text3"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text2" />
+
+            <Button
+                android:id="@+id/but2"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttonstyle"
+                android:gravity="center"
+                android:text="BOOK"
+                android:textColor="#e91e63"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintHorizontal_bias="0.204"
+                app:layout_constraintLeft_toRightOf="@+id/but1"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text4" />
+
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="170dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="39dp"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/candid"
+                android:gravity="center"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/but1"
+                app:layout_editor_absoluteX="39dp"
+                app:layout_editor_absoluteY="234dp" />
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="39dp"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="CANDID CATALOGUE"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/image3"
+                app:layout_editor_absoluteX="39dp"
+                app:layout_editor_absoluteY="234dp" />
+
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="39dp"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Starting from Rs. 125000"
+                android:textColor="#212121"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text5"
+                app:layout_editor_absoluteX="39dp" />
+
+            <Button
+                android:id="@+id/but3"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="39dp"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttonstyle"
+                android:gravity="center"
+                android:text="BOOK"
+                android:textColor="#e91e63"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text6"
+                app:layout_editor_absoluteX="39dp"
+                app:layout_editor_absoluteY="234dp" />
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="170dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/couple"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toRightOf="@+id/image3"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/but2" />
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="COUPLE CATALOGUE"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                app:layout_constraintHorizontal_bias="0.204"
+                app:layout_constraintLeft_toRightOf="@+id/text5"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/image4" />
+
+            <TextView
+                android:id="@+id/text8"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Starting from Rs.175000"
+                android:textColor="#212121"
+                android:textStyle="bold"
+                app:layout_constraintHorizontal_bias="0.204"
+                app:layout_constraintLeft_toRightOf="@+id/text6"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text7" />
+
+            <Button
+                android:id="@+id/but4"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttonstyle"
+                android:gravity="center"
+                android:text="BOOK"
+                android:textColor="#e91e63"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintHorizontal_bias="0.204"
+                app:layout_constraintLeft_toRightOf="@+id/but3"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text8" />
+
+
+            <ImageView
+                android:id="@+id/image5"
+                android:layout_width="170dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="39dp"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/pre"
+                android:gravity="center"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/but3"
+                app:layout_editor_absoluteX="39dp"
+                app:layout_editor_absoluteY="234dp" />
+
+            <TextView
+                android:id="@+id/text9"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="39dp"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="PRE-WEDDING CATALOGUE"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/image5"
+                app:layout_editor_absoluteX="39dp"
+                app:layout_editor_absoluteY="234dp" />
+
+            <TextView
+                android:id="@+id/text10"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="39dp"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Starting fro Rs.150000"
+                android:textColor="#212121"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text9"
+                app:layout_editor_absoluteX="39dp" />
+
+            <Button
+                android:id="@+id/but5"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="39dp"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="-42dp"
+                android:background="@drawable/buttonstyle"
+                android:gravity="center"
+                android:text="BOOK"
+                android:textColor="#e91e63"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text10"
+                app:layout_editor_absoluteX="39dp"
+                app:layout_editor_absoluteY="234dp" />
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.constraint.ConstraintLayout>
+
+
+
+
+</ScrollView>

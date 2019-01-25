@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ashwini.harekrishna.bookingactivity">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="© 2017 The Photo Studio |App by ClickersOnline"
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/button"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="8dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CLICK ME"
+            android:orientation="vertical"
+            android:textSize="20dp"
+            android:onClick="onclick"
+            android:gravity="bottom"
+            android:layout_marginTop="15dp"
+            app:layout_constraintTop_toBottomOf="@+id/editText4"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:id="@+id/button" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="15dp"
+            android:text="VENUE"
+            android:textColor="@android:color/black"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView7"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            android:id="@+id/editText4" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="15dp"
+            android:text="LOCATION"
+            android:textColor="@android:color/black"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText8" />
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            android:id="@+id/editText" />
+
+        <Button
+            android:layout_width="100dp"
+            android:id="@+id/btn_date"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textSize="28dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/editText8"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="65dp"
+            android:text="FILL IN YOUR DETAILS"
+            android:textColor="@color/colorAccent"
+            android:textSize="37dp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5"
+            app:layout_goneMarginTop="25dp" />
+
+        <ImageView
+            android:layout_width="500dp"
+            android:layout_height="500dp"
+            android:background="@drawable/pre"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="-7dp"
+            app:layout_constraintHorizontal_bias="0.512" />
+
+
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="211dp"
+            android:layout_height="49dp"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:layout_marginTop="15dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView12"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't forget to mention your wedding dates and locations (city and venues)."
+            android:textSize="20dp"
+            android:textColor="#ff000000"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView11"
+            android:layout_marginLeft="16dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginStart="16dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TELL US ABOUT YOUR WEDDING"
+            android:textColor="#ff000000"
+            android:textStyle="bold"
+            android:textSize="28dp"
+            app:layout_editor_absoluteX="16dp"
+            android:layout_marginTop="15dp"
+            app:layout_constraintTop_toBottomOf="@+id/editText6"
+            android:layout_marginLeft="16dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginStart="16dp" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginTop="15dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView10"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintHorizontal_bias="0.06"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YOUR PHONE NUMBER"
+            android:textColor="#ff000000"
+            android:textStyle="bold"
+            android:textSize="28dp"
+            android:layout_marginTop="15dp"
+            app:layout_constraintTop_toBottomOf="@+id/editText5"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintHorizontal_bias="0.048"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginTop="12dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView9"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintHorizontal_bias="0.052"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="350dp"
+            android:layout_height="39dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginTop="15dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView8"
+            android:layout_marginLeft="16dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginStart="16dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YOUR LAST NAME"
+            android:textColor="#ff000000"
+            android:textStyle="bold"
+            android:textSize="28dp"
+            android:layout_marginTop="15dp"
+            app:layout_constraintTop_toBottomOf="@+id/editText2"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintHorizontal_bias="0.058"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="15dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView6"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintHorizontal_bias="0.119" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YOUR FIRST NAME"
+            android:textStyle="bold"
+            android:textSize="28dp"
+            android:textColor="#ff000000"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintHorizontal_bias="0.059"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="25dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="365dp"
+            android:layout_height="109dp"
+            android:text="To get in touch with us directly, please call MANASA at  +91-97170-12244 (or e-mail us at contact@arjunkarthaphotography.com). We look forward to hearing from you!"
+            android:layout_marginTop="-600dp"
+            android:textSize="18dp"
+            android:textColor="#ff000000"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintHorizontal_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="363dp"
+            android:layout_height="113dp"
+            android:text="The best way to get in touch wish us is to fill the contact form below. We will review your inquiry and get back to you with relevant information within one working day (usually much, much sooner)."
+            android:layout_marginTop="27dp"
+            android:textSize="18dp"
+            android:textColor="#ff000000"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            tools:layout_editor_absoluteY="226dp"
+            tools:layout_editor_absoluteX="48dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="347dp"
+            android:layout_height="54dp"
+            android:text="You’re getting married. You’re in the right place!"
+            android:textSize="20dp"
+            android:textColor="#ff000000"
+            android:layout_marginTop="28dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintHorizontal_bias="0.409"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="35dp"
+            android:textStyle="bold"
+            android:text="Booking |Indian Wedding Photography"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="35dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YOUR E-MAIL ADDRESS"
+            android:textColor="#ff000000"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginTop="15dp"
+            app:layout_constraintTop_toBottomOf="@+id/editText3"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintHorizontal_bias="0.059"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" />
+    </android.support.constraint.ConstraintLayout>
+
+
+</ScrollView>

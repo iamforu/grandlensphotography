@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ashwini.harekrishna.weddingall">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="© 2017 The Photo Studio |App by clickers online"
+            android:textSize="15dp"
+            android:layout_marginTop="61dp"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout4"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="-17dp" />
+
+
+        <!--Photographer-->
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraintLayout4"
+            android:layout_width="418dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="32dp"
+            android:background="?attr/colorControlHighlight"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+            app:layout_editor_absoluteX="2dp">
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="PHOTOS"
+                android:textSize="20dp"
+                android:layout_marginTop="22dp"
+                app:layout_constraintTop_toBottomOf="@+id/imagehead3"
+                android:layout_marginLeft="16dp"
+                app:layout_constraintLeft_toLeftOf="parent" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="John"
+                android:textSize="15dp"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toRightOf="@+id/imagehead3"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/texthead3" />
+
+            <ImageView
+                android:id="@+id/imagehead3"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginBottom="-32dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/pic2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/texthead3"
+                android:layout_width="201dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:layout_constraintLeft_toRightOf="@+id/imagehead3"
+                android:gravity="center"
+                android:text="PHOTOGRAPHER"
+                android:textSize="18dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_editor_absoluteX="175dp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="201dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-12dp"
+                android:layout_marginTop="13dp"
+                android:text=" Portrait photographer Jolanta brings a huge amount of energy and versatility to every one of her shoots. A seasoned Wanderluster, her aesthetic influences range from luxurious European fashion to vibrant tribal looks. "
+                app:layout_constraintLeft_toRightOf="@+id/imagehead3"
+                app:layout_constraintTop_toBottomOf="@+id/textView14"></TextView>
+        </android.support.constraint.ConstraintLayout>
+        <!--end-->
+
+        <!--photographer-->
+        <android.support.constraint.ConstraintLayout
+
+            android:layout_width="402dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="30dp"
+            android:background="?attr/colorControlHighlight"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout2"
+            android:layout_marginLeft="-31dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:id="@+id/constraintLayout3"
+            app:layout_constraintHorizontal_bias="1.0">
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="PHOTOS"
+                app:layout_editor_absoluteX="33dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@+id/imagehead2" />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Liam"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/texthead2"
+                android:layout_marginRight="8dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/imagehead2"
+                android:layout_marginLeft="8dp"
+                app:layout_constraintHorizontal_bias="0.0"
+                android:id="@+id/textView12" />
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:background="@drawable/pic3"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="-32dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="8dp"
+                app:layout_constraintVertical_bias="0.0"
+                android:id="@+id/imagehead2" />
+            <TextView
+                android:layout_width="201dp"
+                android:layout_height="wrap_content"
+                android:text="PHOTOGRAPHER"
+                android:textSize="18dp"
+                app:layout_constraintLeft_toRightOf="@+id/imagehead2"
+                app:layout_editor_absoluteX="175dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:id="@+id/texthead2" />
+            <TextView
+                android:layout_width="201dp"
+                android:layout_height="wrap_content"
+                android:text="Liam's talent for model direction is indescribable. The quickest TPS turnaround from intern to photographer has passion and determination beyond his years. "
+                app:layout_constraintLeft_toRightOf="@+id/imagehead2"
+                android:layout_marginLeft="-12dp"
+                android:id="@+id/textView13"
+                android:layout_marginTop="13dp"
+                app:layout_constraintTop_toBottomOf="@+id/textView12" />
+        </android.support.constraint.ConstraintLayout>
+        <!--end-->
+
+
+        <!--head photographer1-->
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="422dp"
+            android:layout_height="228dp"
+            android:layout_marginTop="46dp"
+            android:background="?attr/colorControlHighlight"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="-54dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            android:id="@+id/constraintLayout2">
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="JUDE STEVENS"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/texthead1"
+                android:layout_marginRight="8dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/imagehead1"
+                android:layout_marginLeft="8dp"
+                app:layout_constraintHorizontal_bias="0.0"
+                android:id="@+id/textView5" />
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:background="@drawable/pic1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="-32dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="8dp"
+                app:layout_constraintVertical_bias="0.0"
+                android:id="@+id/imagehead1" />
+            <TextView
+                android:layout_width="201dp"
+                android:layout_height="wrap_content"
+                android:text="HEAD PHOTOGRAPHER"
+                android:textSize="18dp"
+                app:layout_constraintLeft_toRightOf="@+id/imagehead1"
+                app:layout_editor_absoluteX="175dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:id="@+id/texthead1" />
+            <TextView
+                android:layout_width="201dp"
+                android:layout_height="wrap_content"
+                android:text="Inspired from a young age by Ellen Von Unwerth, avid surfer Jude has a rare talent at making people feel more than comfortable in front of the camera. She has a deep knowledge of studio portraiture."
+                app:layout_constraintLeft_toRightOf="@+id/imagehead1"
+                android:layout_marginLeft="-12dp"
+                android:id="@+id/textView4"
+                android:layout_marginTop="13dp"
+                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        </android.support.constraint.ConstraintLayout>
+        <!--end>
+
+        <!-Managing Director content-->
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="400dp"
+            android:layout_height="173dp"
+            android:layout_marginTop="30dp"
+            android:background="?attr/colorControlHighlight"
+            app:layout_constraintTop_toBottomOf="@+id/textView9"
+            android:layout_marginLeft="-71dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintHorizontal_bias="0.712"
+            android:id="@+id/constraintLayout">
+
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Linzi"
+                android:textSize="15dp"
+                app:layout_editor_absoluteX="235dp"
+                app:layout_constraintLeft_toRightOf="@+id/imageView"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="-52dp"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:background="@drawable/pic4"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="-32dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="8dp"
+                app:layout_constraintVertical_bias="0.0"
+                android:id="@+id/imageView" />
+            <TextView
+                android:layout_width="201dp"
+                android:layout_height="wrap_content"
+                android:text="MANAGING DIRECTOR"
+                app:layout_constraintLeft_toRightOf="@+id/imageView"
+                android:textSize="18dp"
+                app:layout_editor_absoluteX="175dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:id="@+id/textView" />
+            <TextView
+                android:layout_width="201dp"
+                android:layout_height="wrap_content"
+                android:text=" Linzi works around the clock to ensure that every client receives VIP treatment from start to finish."
+                app:layout_constraintLeft_toRightOf="@+id/imageView"
+                android:layout_marginLeft="8dp"
+                android:id="@+id/textView11"
+                android:layout_marginTop="-32dp"
+                app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+        </android.support.constraint.ConstraintLayout>
+        <!--end-->
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Located in Bangalore, The Photo Studio bangalore
+   is a buzzing hive of playful creativity. The space
+   consists of three photography studios,three hair
+   and makeup stations, two viewing rooms and a
+                  large post-production space."
+            android:textColor="@android:color/black"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" />
+
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="9dp"
+            android:text="THE PHOTO STUDIO BANGALORE"
+            android:textColor="@android:color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3"
+            android:layout_marginEnd="8dp" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="250dp"
+            android:background="@drawable/team2"
+            android:layout_marginTop="23dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView7"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:id="@+id/imageView3" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="42dp"
+            android:text="OUR STUDIO"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="0.447"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="23dp"
+            android:text="  Ultimately our mission is to help people to see beauty
+        in themselves while creating wonderful works of
+        art that will be passed down through generations."
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            android:layout_marginStart="7dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="20dp"
+            android:text="         Founded in 2007 by renowned advertising
+    photographer North Sullivan, TPS blurs the line between editorial fashion photography and personal portraiture. Located in two retro warehouses in Sydney and Melbourne, our studio’s offer people the chance to
+     step out of their comfort zones and spend a day
+     playing adult dress-ups with the professionals."
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="363dp"
+            android:layout_height="98dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="20dp"
+            android:text="      We believe that high-end fashion photography shouldn’t be exclusive to
+         high-end fashion models."
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/flag"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" />
+
+        <ImageView
+            android:layout_width="442dp"
+            android:layout_height="250dp"
+            app:layout_editor_absoluteY="1dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            android:background="@drawable/team1"
+            android:id="@+id/flag"
+            android:layout_marginEnd="8dp"
+            />
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
